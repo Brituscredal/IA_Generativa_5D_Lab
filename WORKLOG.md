@@ -25,3 +25,15 @@ Criar a base do laboratório (repo + prompts padrão + registro).
 
 ### Próximo passo
 Finalizar o A02 e fazer commit/push.
+
+
+### Dia 2
+
+- Criação do arquivo aula03_skeleton.md via codex criando um template de prompt com seções fixas e placeholders.
+
+- Criação do arquivo aula04_rubrica.md via codex, uma rubrica com notas (0–2 ou 0–5) + descrição do que é “ruim/ok/ótimo”.
+
+- Criação do arquivo aula04_testes.md via codex 5 entradas diferentes + “saída esperada” (critério objetivo)
+
+Gerado um Prompt Runner na pasta src/prompt_runner, ler um template e substitui variaveis.
+
