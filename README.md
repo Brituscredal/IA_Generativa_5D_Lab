@@ -9,6 +9,17 @@ Pratica de IA Generativa em 5 dias (5D Lab), seguindo aulas e gerando entregavei
 - Registre andamento em `WORKLOG.md` e decisoes em `DECISOES.md`.
 - Faça commits por dia (checkpoint + final).
 
+## Exemplo prático: executando um prompt (skeleton -> runner -> Codex)
+
+1) Escolha uma tarefa (ex.: "atualizar WORKLOG do Dia 2").
+
+2) Preencha o skeleton em `prompts/aula03_skeleton.md` (campos {OBJETIVO}, {TEMA}, etc.).
+
+3) Gere o prompt final com o runner (exemplo):
+```bash
+python src/prompt_runner.py prompts/aula03_skeleton.md OBJETIVO="Atualizar WORKLOG Dia 2" TEMA="WORKLOG" NIVEL="iniciante" > out/prompt_final.md
+
+
 ## Estrutura de pastas
 - `prompts/` - prompts organizados por aula/dia.
 - `src/` - codigo e utilitarios (ex.: runner).
@@ -46,3 +57,17 @@ Pratica de IA Generativa em 5 dias (5D Lab), seguindo aulas e gerando entregavei
 
 ## Comando (placeholder)
 - `python src/prompt_runner.py ...`
+
+## Avaliação (Rubrica) — README.md (Dia 2)
+
+| Critério                            |    Nota | Evidência no README                                      | Ajuste para v2                                                                   |
+| ----------------------------------- | ------: | -------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Clareza do objetivo                 | **2/2** | “Pratica de IA Generativa em 5 dias…”                    | (ok)                                                                             |
+| Passo a passo executável            | **1/2** | “Execute o prompt via runner…”, mas sem exemplo concreto | **Adicionar exemplo real de execução** (runner + depois colar no Codex)          |
+| Estrutura do repo (pastas/arquivos) | **1/2** | Só lista `prompts/` e `src/`                             | Incluir `docs/` (se existir) e citar WORKLOG/DECISOES como “arquivos chave”      |
+| Regras do 5D Lab                    | **2/2** | Tem regras + commits por dia                             | (ok)                                                                             |
+| Facilidade de copiar/colar          | **1/2** | Tem checklist, mas faltam snippets prontos               | **Adicionar “blocos copiáveis”**: comandos git e um exemplo de prompt preenchido |
+
+Total: 7/10
+
+## Melhorias 

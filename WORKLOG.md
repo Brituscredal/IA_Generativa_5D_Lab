@@ -27,13 +27,41 @@ Criar a base do laboratório (repo + prompts padrão + registro).
 Finalizar o A02 e fazer commit/push.
 
 
-### Dia 2
+## 2025-12-29 - Dia 2 (Aulas 03 e 04)
 
-- Criação do arquivo aula03_skeleton.md via codex criando um template de prompt com seções fixas e placeholders.
+### Objetivo do dia
+Concluir os prompts das Aulas 03 e 04 e organizar a execucao via runner.
 
-- Criação do arquivo aula04_rubrica.md via codex, uma rubrica com notas (0–2 ou 0–5) + descrição do que é “ruim/ok/ótimo”.
+### Regras do dia
+- VSCode + GitHub + Codex.
+- Prompts em `prompts/`.
+- Registro em `DECISOES.md`.
 
-- Criação do arquivo aula04_testes.md via codex 5 entradas diferentes + “saída esperada” (critério objetivo)
+### Status inicial
+- Tudo certo ate aqui.
 
-Gerado um Prompt Runner na pasta src/prompt_runner, ler um template e substitui variaveis.
+### O que foi feito
+- [x] Criado `prompts/aula03_skeleton.md`.
+- [x] Criado `prompts/aula03_variacoes.md`.
+- [x] Criado `prompts/aula03_restricoes.md`.
+- [x] Criado `prompts/aula03_exemplos.md`.
+- [x] Criado `prompts/aula04_rubrica.md`.
+- [x] Criado `prompts/aula04_testes.md`.
+- [x] Criado runner em `src/`.
+- [x] Atualizado `README.md`.
 
+### Resultados
+- Prompts da Aula 03 prontos.
+- Rubrica e testes da Aula 04 prontos.
+- Runner disponivel em `src/`.
+- README atualizado.
+
+### Problemas / duvidas
+- Nenhum.
+
+### Proximos passos (Dia 2)
+- Revisar arquivos e encerrar o dia com commit checkpoint e final.
+
+### Sugestao de commits
+- `dia-02: checkpoint - prompts aula 03`
+- `dia-02: final - rubrica/testes + runner + README`

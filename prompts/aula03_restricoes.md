@@ -1,5 +1,6 @@
 # Aula 03 - Banco de Restricoes
 
+
 ## Formato de saida (Markdown/JSON/Tabela)
 - [FORMATO] Responda em Markdown com titulos e bullets.
 - [FORMATO] Responda em JSON valido, sem texto extra.

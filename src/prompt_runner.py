@@ -10,6 +10,8 @@ def parse_pairs(pairs):
             raise ValueError(f"Par invalido: {raw}. Use CHAVE=valor")
         key, value = raw.split("=", 1)
         key = key.strip()
+        if key.startswith("{") and key.endswith("}"):
+            key = key[1:-1].strip()
         if not key:
             raise ValueError(f"Chave vazia em: {raw}")
         values[key] = value
@@ -47,3 +49,6 @@ def main(argv):
 
 if __name__ == "__main__":
     raise SystemExit(main(sys.argv[1:]))
+
+# Teste manual (PowerShell):
+# python .\src\prompt_runner.py .\prompts\aula03_skeleton.md OBJETIVO="AAA" TEMA="BBB" NIVEL="CCC" > out\render_teste.md
